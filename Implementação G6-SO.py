@@ -365,6 +365,7 @@ class GerenciadorArquivos:
 
     def criar_subdiretorio(self, dir_path):
         # Cria um subdiretório
+        # Use o separador de caminho ('/') para indicar a criação de um subdiretório dentro do diretório atual.
         os.makedirs(dir_path, exist_ok=True)
         print(f"Subdiretório '{dir_path}' criado com sucesso.")
 
